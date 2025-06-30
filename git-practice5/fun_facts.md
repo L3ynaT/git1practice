@@ -1,2 +1,3 @@
-# I am a sagittarius
-# My favorite dessert is cream puffs
+# My go-to drink is a matcha latte.
+# My camera roll is filled with sunsets, clouds, and flowers.
+# One of my favorite hobbies is baking.
