@@ -1,5 +1,6 @@
 * {
   font-family: Georgia, serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -7,44 +8,74 @@ body {
 }
 
 .about-me {
-  margin-left: 80px;
+  margin-left: 160px;
+  margin-bottom: -12px;
+  margin-top: 50px;
 }
 
 .bio {
-  margin-left: 80px;
+  margin-left: 160px;
   margin-right: 80px;
-  margin-bottom: -6px;
 }
 
 h1 {
-  margin-left: 80px;
+  margin-left: 160px;
   margin-right: 80px;
   color: #523960;
   margin-top: 10px;
 }
 
 h2 {
-  margin-left: 80px;
+  margin-left: 160px;
   margin-right: 80px;
 }
 
 h3 {
-  margin-left: 80px;
+  margin-left: 160px;
   margin-right: 80px;
   color: #523960;
 }
 
 .fun-facts {
-  margin-left: 80px;
+  margin-left: 160px;
   margin-right: 80px;
 }
 
 .timeline {
-  margin-left: 105px;
-  border-left: 3px solid #523960;
+  margin-left: 160px;
+  border-left: 2px solid #523960;
   height: 130px;
 }
 
 .event {
-  margin-left: 10px;
+  margin-left: 35px;
+}
+
+img {
+  width: 183px;
+  height: 154px;
+  object-fit: cover;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.images {
+  margin-left: 160px;
+}
+
+.side-headers {
+  float: left;
+  width: 10%;
+}
+
+.side-headers h3 {
+  width: 100%;
+  text-align: right;
+}
+
+.main {
+  float: left;
+  width: 90%;
+  padding-left: 80px;
 }
