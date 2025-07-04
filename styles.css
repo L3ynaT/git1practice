@@ -1,72 +1,121 @@
 * {
-  font-family: Georgia, serif;
+  font-family: "IBM Plex Serif";
   box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
-  background-color: #d9d9d9;
+  background-color: #f9f7ed;
+}
+
+header {
+  background-color: #523960;
+  color: #f9f7ed;
+  height: 500px;
+  padding-top: 200px;
 }
 
 .about-me {
-  margin-left: 160px;
-  margin-bottom: -12px;
-  margin-top: 50px;
-}
-
-.bio {
-  margin-left: 160px;
-  margin-right: 80px;
+  padding-left: 30%;
+  margin-bottom: -15px;
+  font-size: 20px;
 }
 
 h1 {
-  margin-left: 160px;
-  margin-right: 80px;
-  color: #523960;
+  padding-left: 30%;
+  background-color: #523960;
+  padding-bottom: 40px;
   margin-top: 10px;
+  font-size: 54px;
+  text-align: right;
 }
 
-h2 {
-  margin-left: 160px;
-  margin-right: 80px;
+.ff-header {
+  height: 374px;
+  padding-top: 30px;
+}
+
+.bio {
+  padding-left: 50px;
+  padding-right: 40%;
+  background-color: #523960;
+  color: #f9f7ed;
+  font-size: 20px;
+  height: 500px;
+  display: flex;
+  align-items: center;
 }
 
 h3 {
-  margin-left: 160px;
-  margin-right: 80px;
+  padding-left: 40%;
   color: #523960;
+  font-size: 20px;
 }
 
 .fun-facts {
-  margin-left: 160px;
-  margin-right: 80px;
+  margin-left: 50px;
+  margin-top: 30px;
+  padding-right: 10%;
+  background-color: #f9f7ed;
+}
+
+.timeline-header {
+  padding-top: 30px;
+  color: #f9f7ed;
+  background-color: #523960;
+  height: 330px;
+}
+
+.line {
+  margin-top: 50px;
+  border-left: 2px solid #f9f7ed;
+  height: 210px;
+  position: absolute;
+  margin-left: 40%;
+  left: 30px;
 }
 
 .timeline {
-  margin-left: 160px;
-  border-left: 2px solid #523960;
-  height: 130px;
+  padding-left: 20px;
+  padding-top: 30px;
+  color: #f9f7ed;
+  background-color: #523960;
+  height: 330px;
+  line-height: 40px;
+}
+
+.year {
+  margin-left: 32px;
+  margin-bottom: -15px;
+}
+
+.year::marker {
+  font-size: 1.5rem;
 }
 
 .event {
-  margin-left: 35px;
+  margin-left: 32px;
 }
 
 img {
-  width: 183px;
-  height: 154px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   margin-right: 20px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  border-radius: 10%;
 }
 
 .images {
-  margin-left: 160px;
+  margin-left: 50px;
 }
 
-.side-headers {
+.column1 {
   float: left;
-  width: 10%;
+  width: 40%;
+  text-align: right;
 }
 
 .side-headers h3 {
@@ -74,8 +123,11 @@ img {
   text-align: right;
 }
 
-.main {
+.column2 {
   float: left;
-  width: 90%;
-  padding-left: 80px;
+  width: 60%;
+}
+
+a {
+  color: #f9f7ed;
 }
