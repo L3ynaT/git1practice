@@ -1,55 +1,65 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="styles.css" />
-        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif" rel="stylesheet">
-    </head>
-    <body>
-        <div class="column1">
-            <header>
-                <p class="about-me">ABOUT ME:</p>
-                <h1>Leyna T.</h1>
-            </header>
-            <h3 class="ff-header">FUN FACTS:</h3>
-            <h3 class="timeline-header">MY CODING JOURNEY:</h3>
-        </div>
-        <div class="column2">
-            <p class="bio">
-                Hi! My name is Leyna, and I was born and raised in the Bay Area, CA. 
-                I currently attend school in Massachusetts. My intended major is Psychology, 
-                and I am considering Mathematics as well.
-            </p>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <div class="column1">
+      <header>
+        <p class="about-me">ABOUT ME:</p>
+        <h1>Leyna T.</h1>
+      </header>
+      <h3 class="ff-header">FUN FACTS:</h3>
+      <h3 class="timeline-header">MY CODING JOURNEY:</h3>
+    </div>
+    <div class="column2">
+      <p class="bio">
+        Hi! My name is Leyna, and I was born and raised in the Bay Area, CA. I
+        currently attend school in Massachusetts. My intended major is
+        Psychology, and I am considering Mathematics as well.
+      </p>
 
-            <ul class="fun-facts">
-                <li>My go-to drink is a matcha latte.</li>
-                <li>My camera roll is filled with sunsets, clouds, and flowers.</li>
-                <li>One of my favorite hobbies is baking.</li>
-            </ul>
-            
-            <section class="images">
-                <img src = "https://images.unsplash.com/photo-1582785513054-8d1bf9d69c1a?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt = "a matcha latte with a heart foam design on top in a clear glass cup">
-                <img src = "https://images.unsplash.com/photo-1567304441104-d7a7d3e4bc1b?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt = "a sunset sky gradient from blue to yellow with scattered pink clouds">
-                <img src = "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt = "three blueberry muffins on a white plate">
-            </section>
-            <div class="line"></div>
-            <section class="timeline">
-                <ul>
-                    <li class="year">2022:</li>
-                    <p class="event"><a href="https://www.kodewithklossy.com/camp">KWK Web Dev Camp</a> Scholar</a></p>
+      <ul class="fun-facts">
+        <li>My go-to drink is a matcha latte.</li>
+        <li>My camera roll is filled with sunsets, clouds, and flowers.</li>
+        <li>One of my favorite hobbies is baking.</li>
+      </ul>
 
-                    <li class="year">2023:</li>
-                    <p class="event">Intro to Programming class (Python)</p>
+      <section class="images">
+        <img
+          src="https://images.unsplash.com/photo-1582785513054-8d1bf9d69c1a?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="a matcha latte with a heart foam design on top in a clear glass cup"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1567304441104-d7a7d3e4bc1b?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="a sunset sky gradient from blue to yellow with scattered pink clouds"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1607958996333-41aef7caefaa?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+          alt="three blueberry muffins on a white plate"
+        />
+      </section>
+      <div class="line"></div>
+      <section class="timeline">
+        <ul>
+          <li class="year"><button class="event2022">2022:</button></li>
+          <div class="event kwk">'</div>
 
-                    <li class="year">2023-2024</li>
-                    <p class="event">Club Officer for high school's CS club</p>
+          <li class="year"><button class="event2023">2023:</button></li>
+          <p class="event python">Intro to Programming class (Python)</p>
 
-                    <li class="year">2025:</li>
-                    <p class="event">Intro to CS course in college (Java)</p>
-                </ul>
-            </section>  
-        </div>
-    </body>
+          <li class="year"><button class="event2024">2023-2024</button></li>
+          <p class="event club">Club Officer for high school's CS club</p>
+
+          <li class="year"><button class="event2025">2025:</button></li>
+          <p class="event java">Intro to CS course in college (Java)</p>
+        </ul>
+      </section>
+    </div>
+  </body>
 </html>
