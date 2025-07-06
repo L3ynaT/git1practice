@@ -98,6 +98,26 @@ h3 {
   margin-left: 32px;
 }
 
+a {
+  color: #523960;
+}
+
+#kwk {
+  color: #523960;
+}
+
+#python {
+  color: #523960;
+}
+
+#club {
+  color: #523960;
+}
+
+#java {
+  color: #523960;
+}
+
 img {
   width: 200px;
   height: 200px;
@@ -128,14 +148,11 @@ img {
   width: 60%;
 }
 
-a {
-  color: #f9f7ed;
-}
-
 button {
   font-size: 16px;
   background-color: #523960;
-  padding: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
   color: #f9f7ed;
   border-radius: 7px;
   border-color: #f9f7ed;

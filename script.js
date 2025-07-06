@@ -3,17 +3,35 @@ var button2023 = $(".event2023");
 var button2024 = $(".event2024");
 var button2025 = $(".event2025");
 
-var kwkEvent = $(".kwk");
-var pythonEvent = $(".python");
-var clubEvent = $(".club");
-var javaEvent = $(".java");
+var kwkEvent = $("#kwk");
+var aEvent = $("a");
+var pythonEvent = $("#python");
+var clubEvent = $("#club");
+var javaEvent = $("#java");
 
-button2022.on("click", kwkShow);
+button2022.on("click", kwkChange);
 
-function kwkShow() {
-  kwkEvent.append(
-    `<p><a href="https://www.kodewithklossy.com/camp">KWK Web Dev Camp</a> Scholar</p>`
-  );
+function kwkChange() {
+  kwkEvent.css("color", "#f9f7ed");
+  aEvent.css("color", "#f9f7ed");
+}
+
+button2023.on("click", pythonChange);
+
+function pythonChange() {
+  pythonEvent.css("color", "#f9f7ed");
+}
+
+button2024.on("click", clubChange);
+
+function clubChange() {
+  clubEvent.css("color", "#f9f7ed");
+}
+
+button2025.on("click", javaChange);
+
+function javaChange() {
+  javaEvent.css("color", "#f9f7ed");
 }
 
 //https://images.unsplash.com/vector-1738590593450-647695dbf9d0?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
